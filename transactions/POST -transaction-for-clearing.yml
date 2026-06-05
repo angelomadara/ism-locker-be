@@ -5,12 +5,12 @@ info:
 
 http:
   method: POST
-  url: "{{baseUrl}}/api/v1/transactions/card"
+  url: "{{baseUrl}}/api/v1/transactions/for-clearing"
   body:
     type: json
     data: |-
       {
-        "id": "1834850165",
+        "id": "1834850165"
       }
   auth: inherit
 
