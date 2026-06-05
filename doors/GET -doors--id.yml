@@ -1,0 +1,15 @@
+info:
+  name: GET /doors/:id
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: "{{baseUrl}}/api/v1/doors/6a18f63a21540a52ad10fa10"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

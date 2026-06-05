@@ -1,0 +1,22 @@
+info:
+  name: POST /transaction/card
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: "{{baseUrl}}/api/v1/transactions/card"
+  body:
+    type: json
+    data: |-
+      {
+        "cardId": "123456",
+        "lockerId": "6a0bf9dbca77bfe9fae6d493"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

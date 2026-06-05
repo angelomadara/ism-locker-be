@@ -1,0 +1,22 @@
+info:
+  name: POST /transaction/pin
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: "{{baseUrl}}/api/v1/transactions/pin"
+  body:
+    type: json
+    data: |-
+      {
+        "pin": "1223",
+        "lockerId": "6a13ebe6559e99c3b2811baf"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

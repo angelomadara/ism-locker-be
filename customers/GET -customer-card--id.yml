@@ -1,0 +1,15 @@
+info:
+  name: GET /customer/card/:id
+  type: http
+  seq: 7
+
+http:
+  method: GET
+  url: "{{baseUrl}}/api/v1/customers/6a1ecf760473c0b47ddcd50f"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

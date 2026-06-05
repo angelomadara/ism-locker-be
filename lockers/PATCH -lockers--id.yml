@@ -1,0 +1,21 @@
+info:
+  name: PATCH /lockers/:id
+  type: http
+  seq: 3
+
+http:
+  method: PATCH
+  url: "{{baseUrl}}/api/v1/lockers/6a1e7b7e3482020e421dc855"
+  body:
+    type: json
+    data: |-
+      {
+        "lockerName": "locker sa meeting room"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

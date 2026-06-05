@@ -1,0 +1,21 @@
+info:
+  name: POST /transaction/expired
+  type: http
+  seq: 9
+
+http:
+  method: POST
+  url: "{{baseUrl}}/api/v1/transactions/card"
+  body:
+    type: json
+    data: |-
+      {
+        "id": "1834850165",
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
