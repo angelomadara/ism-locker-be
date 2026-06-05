@@ -5,10 +5,13 @@ info:
 
 http:
   method: GET
-  url: "{{baseUrl}}/api/v1/transactions?page=1"
+  url: "{{baseUrl}}/api/v1/transactions?page=1&status=created"
   params:
     - name: page
       value: "1"
+      type: query
+    - name: status
+      value: created
       type: query
   auth: inherit
 
