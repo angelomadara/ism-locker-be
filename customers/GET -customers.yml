@@ -9,10 +9,15 @@ http:
   headers:
     - name: Authorization
       value: Bearer {{accessToken}}
+      disabled: true
   params:
     - name: page
       value: "1"
       type: query
+    - name: status
+      value: active
+      type: query
+      disabled: true
   auth: inherit
 
 settings:

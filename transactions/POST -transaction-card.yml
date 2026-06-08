@@ -10,8 +10,8 @@ http:
     type: json
     data: |-
       {
-        "cardId": "123456",
-        "lockerId": "6a0bf9dbca77bfe9fae6d493"
+        "cardId": "9463081572",
+        "lockerId": "6a26b4151862d28a21b2c950"
       }
   auth: inherit
 
