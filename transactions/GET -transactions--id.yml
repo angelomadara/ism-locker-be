@@ -5,12 +5,11 @@ info:
 
 http:
   method: GET
-  url: "{{baseUrl}}/api/v1/transactions/6a224ce4eabaf2b298539f8f"
+  url: "{{baseUrl}}/api/v1/transactions/6a224ce4eabaf2b298539f8f?history=true"
   params:
     - name: history
       value: "true"
       type: query
-      disabled: true
   auth: inherit
 
 settings:

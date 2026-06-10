@@ -5,14 +5,31 @@ info:
 
 http:
   method: GET
-  url: "{{baseUrl}}/api/v1/transactions?page=1&status=created"
+  url: "{{baseUrl}}/api/v1/transactions?status=completed"
   params:
     - name: page
       value: "1"
       type: query
+      disabled: true
+    - name: status
+      value: for_clearing
+      type: query
+      disabled: true
     - name: status
       value: created
       type: query
+      disabled: true
+    - name: status
+      value: completed
+      type: query
+    - name: status
+      value: expired
+      type: query
+      disabled: true
+    - name: status
+      value: failed
+      type: query
+      disabled: true
   auth: inherit
 
 settings:

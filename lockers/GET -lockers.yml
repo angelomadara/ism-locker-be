@@ -5,11 +5,12 @@ info:
 
 http:
   method: GET
-  url: "{{baseUrl}}/api/v1/lockers?doors=true"
+  url: "{{baseUrl}}/api/v1/lockers"
   params:
     - name: doors
       value: "true"
       type: query
+      disabled: true
   auth: inherit
 
 settings:
