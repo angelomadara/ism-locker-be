@@ -1,11 +1,11 @@
 info:
-  name: PATCH /customers/:id
+  name: PATCH /cards/:id
   type: http
   seq: 5
 
 http:
   method: PATCH
-  url: "{{baseUrl}}/api/v1/customers/6a0d319bad6f007e45d1d97e"
+  url: "{{baseUrl}}/api/v1/cards/6a0d319bad6f007e45d1d97e"
   body:
     type: json
     data: |-

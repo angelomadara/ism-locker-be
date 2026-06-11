@@ -5,12 +5,11 @@ info:
 
 http:
   method: GET
-  url: "{{baseUrl}}/api/v1/transactions?status=completed"
+  url: "{{baseUrl}}/api/v1/transactions?page=1&status=completed"
   params:
     - name: page
       value: "1"
       type: query
-      disabled: true
     - name: status
       value: for_clearing
       type: query

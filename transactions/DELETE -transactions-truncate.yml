@@ -1,0 +1,18 @@
+info:
+  name: DELETE /transactions/truncate
+  type: http
+  seq: 11
+
+http:
+  method: DELETE
+  url: http://localhost:3000/api/transactions/truncate
+  headers:
+    - name: Authorization
+      value: Bearer {{accessToken}}
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
