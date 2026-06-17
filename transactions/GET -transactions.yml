@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{baseUrl}}/api/v1/transactions?page=1&status=completed"
+  url: "{{baseUrl}}/api/v1/transactions?page=1&status=for_clearing&status=cleared"
   params:
     - name: page
       value: "1"
@@ -13,7 +13,6 @@ http:
     - name: status
       value: for_clearing
       type: query
-      disabled: true
     - name: status
       value: created
       type: query
@@ -21,14 +20,14 @@ http:
     - name: status
       value: completed
       type: query
+      disabled: true
     - name: status
       value: expired
       type: query
       disabled: true
     - name: status
-      value: failed
+      value: cleared
       type: query
-      disabled: true
   auth: inherit
 
 settings:
