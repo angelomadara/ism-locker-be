@@ -1,8 +1,0 @@
-name: white-label-campus-locker-be
-variables:
-  - name: baseUrl
-    value: http://localhost:3021
-  - name: accessToken
-    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTE1M2Y1NTI5Yjk5NjI2NWEwMDdiNzkiLCJpYXQiOjE3Nzk3Nzc1MTEsImV4cCI6MTc3OTc3ODQxMX0.8mDVIyejCfINzZZC7sjbQ6jxoBioEi2kYk-x1YoJl50
-  - name: refreshToken
-    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YTE1M2Y1NTI5Yjk5NjI2NWEwMDdiNzkiLCJpYXQiOjE3Nzk3Nzc1MTEsImV4cCI6MTc4MDM4MjMxMX0.Vq_ec8elnDDx88u8LpdXHlK7OSA4hP2znp-SM8CnB8I
